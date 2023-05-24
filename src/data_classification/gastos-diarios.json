@@ -1,0 +1,106 @@
+[
+    {
+        "id": 3,
+        "nombre": "comida",
+        "descripcion": "comida",
+        "monto": 340.0,
+        "icon": 1,
+        "dayId": null
+    },
+    {
+        "id": 4,
+        "nombre": "perro",
+        "descripcion": "comida de mi perro",
+        "monto": 5000.0,
+        "icon": 1,
+        "dayId": null
+    },
+    {
+        "id": 5,
+        "nombre": "escuela",
+        "descripcion": "foto de escuela de mi graduacion",
+        "monto": 3450.0,
+        "icon": 6,
+        "dayId": null
+    },
+    {
+        "id": 6,
+        "nombre": "Derechos de autor",
+        "descripcion": "Estos son los derechos de autor de mi cancion",
+        "monto": 1.23457e+25,
+        "icon": 7,
+        "dayId": null
+    },
+    {
+        "id": 7,
+        "nombre": "Comida",
+        "descripcion": "Hamburguesa que me debe gus",
+        "monto": 234567.0,
+        "icon": 1,
+        "dayId": null
+    },
+    {
+        "id": 8,
+        "nombre": "casco de moto de mi abuela cada que muere",
+        "descripcion": "este es el casco de la moto de mi jefa",
+        "monto": 3.12414e+26,
+        "icon": 4,
+        "dayId": null
+    },
+    {
+        "id": 9,
+        "nombre": "Comida",
+        "descripcion": "Una chapata y una hamburguesa",
+        "monto": 70.0,
+        "icon": 1,
+        "dayId": null
+    },
+    {
+        "id": 10,
+        "nombre": "Pasaje",
+        "descripcion": "Metro de regreso",
+        "monto": 5.0,
+        "icon": 2,
+        "dayId": null
+    },
+    {
+        "id": 11,
+        "nombre": "Escuela",
+        "descripcion": "Inscripci\u00f3",
+        "monto": 5000.0,
+        "icon": 9,
+        "dayId": null
+    },
+    {
+        "id": 12,
+        "nombre": "Gasto",
+        "descripcion": "desc",
+        "monto": 19.0,
+        "icon": 8,
+        "dayId": null
+    },
+    {
+        "id": 13,
+        "nombre": "gasto2",
+        "descripcion": "asdasd",
+        "monto": 20.0,
+        "icon": 7,
+        "dayId": null
+    },
+    {
+        "id": 14,
+        "nombre": "gasto3",
+        "descripcion": "asdasd",
+        "monto": 23.0,
+        "icon": 7,
+        "dayId": null
+    },
+    {
+        "id": 15,
+        "nombre": "Metro",
+        "descripcion": "Mi pasaje de hoy",
+        "monto": 5.0,
+        "icon": 2,
+        "dayId": null
+    }
+]
