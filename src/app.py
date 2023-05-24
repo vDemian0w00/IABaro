@@ -1,7 +1,5 @@
 import types 
 
-
-
 def create_app():
     from flask import Flask, jsonify, request
     from config import config
@@ -25,8 +23,6 @@ def create_app():
     # url='https://services-baro.up.railway.app/api/ia/getAllDiarios'
     # url='https://services-baro.up.railway.app/api/ia/getAllFreq'
 
-    # HOLA 
-
     # Guardar el server dentro de app
     app=Flask(__name__) 
     app.config['JSON_AS_ASCII'] = False # Para que no se muestren los caracteres con codificación ASCII
@@ -35,16 +31,15 @@ def create_app():
     # conn = config_db(app)
 
     # Clasificación gastos
-    @app.route('/classification', methods=['GET','POST'])
+    @app.route('/classification')
     def classification():
         # Obtener los gastos
-        url_diarios='https://services-baro.up.railway.app/api/ia/getAllDiarios'
-        url_frecuentes='https://services-baro.up.railway.app/api/ia/getAllFreq'
-        # data
-        data_diarios = requests.get(url_diarios)
-        data_frecuentes = requests.get(url_frecuentes)
-        # Convertir datos
-
+        # url_diarios='https://services-baro.up.railway.app/api/ia/getAllDiarios'
+        # url_frecuentes='https://services-baro.up.railway.app/api/ia/getAllFreq'
+        # # data
+        # data_diarios = requests.get(url_diarios)
+        # data_frecuentes = requests.get(url_frecuentes)
+        data=request.json
 
         # CLASIFICACIÓN
         # Clases
